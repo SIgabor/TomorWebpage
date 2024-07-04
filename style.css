@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #789461;
+}
+
+.text {
+    color: white;
+    font-family: Staatliches, sans-serif;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #294B29;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border {
+    margin: 0 auto 0 auto;
+    width: 1400px;
+}
+
+.navbar h1 {
+    font-size: 40pt;
+}
+
+.navbar .flexbox a {
+    font-size: 25pt;
+    padding: 1vh 2vh 1vh 2vh;
+}
+
+.navbar .flexbox a:hover {
+    background-color: #50623A;
+}
+
+.flexbox {
+    display: flex;
+    gap: 2vw;
+}
+
+.banner {
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.one .flexbox {
+    margin: 40px 0px 0px 0;
+    justify-content: space-between;
+}
+
+.slogan {
+    width: 800px;
+}
+
+.slogan>h2 {
+    font-size: 32pt;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.slogan>p {
+    font-size: 22pt;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+#gunner-image {
+    background-image: url("./assets/gunner.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+
+
+@media (max-width: 1400px) {
+    .border {
+        width: 1200px;
+    }
+} 
